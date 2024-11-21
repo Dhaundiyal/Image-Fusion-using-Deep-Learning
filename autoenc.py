@@ -51,7 +51,7 @@ def load_images(image_folder, target_size=(256, 256)):
 
 def main():
     #Load the images
-    train_images = load_images("Dataset/validation")
+    train_images = load_images("Dataset")
 
     # Normalize images
     train_images = train_images.astype('float32') / 255.
